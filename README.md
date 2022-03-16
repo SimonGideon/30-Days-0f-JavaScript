@@ -1,3 +1,4 @@
+![](https://thumbs.dreamstime.com/b/javascript-gold-text-black-background-d-rendered-royalty-free-stock-picture-image-can-be-used-online-website-banner-87916218.jpg)
 # 30-Days-0f-JavaScript
 This is a series of leaning and practicing JavaScript for 30 Days
 # Day 1
