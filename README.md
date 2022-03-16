@@ -14,22 +14,22 @@ This is a series of leaning and practicing JavaScript for 30 Days
    ### Naming of Variables in Javascript
    * The name must contain only letters , digits and symbols; $(dollar) or _ (underscore).
    * The first character must not be a digit/number
-   #### Name your varriables like a pro in Javascript
-   > Variable naming technique brings a distinction between an experienced programmer and a novice. 
-   #### How to name varriables like a pro.
-   * Use human-readable names
-      ```javascript
-      const userName = Admin;
-      ```
-   * Avoid abbreviations.
-      ```javascript
-      let a = "Today";
-        b = "Wednesday";
-        ///calling a variable in a  line variable is applicable but since we want to code like a **pro**, we use different lines
-      ```
-   * Use maximum Decriptive names (Verbose Variables).
-   * Agree to the terms with you collegeus, team or coding patners.
-   > Avoid subtle code (Difficult to analyse)
+      #### Name your varriables like a pro in Javascript
+      > Variable naming technique brings a distinction between an experienced programmer and a novice. 
+        ##### How to name varriables like a pro.
+        * Use human-readable names
+           ```javascript
+           const userName = Admin;
+           ```
+        * Avoid abbreviations.
+           ```javascript
+            let a = "Today";
+             b = "Wednesday";
+             ///calling a variable in a  line variable is applicable but since we want to code like a **pro**, we use different lines
+            ```
+        * Use maximum Decriptive names (Verbose Variables).
+        * Agree to the terms with you collegeus, team or coding patners.
+          > Avoid subtle code (Difficult to analyse)
        
      
       
