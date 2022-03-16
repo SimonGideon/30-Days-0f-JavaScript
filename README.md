@@ -3,7 +3,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
 # Day 1
   # Introduction
   
-  # Syntax
+   # Syntax
   These are rules that governs a Java Script as a programing language. THis involves:
     1. Declaring of different variables.
     2. Commenting
