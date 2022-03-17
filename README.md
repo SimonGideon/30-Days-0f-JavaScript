@@ -31,6 +31,23 @@ This is a series of leaning and practicing JavaScript for 30 Days
         * Use maximum Decriptive names (Verbose Variables).
         * Agree to the terms with you collegeus, team or coding patners.
           > Avoid subtle code (Difficult to analyse)
+        #### Menthods of naming variable technique.
+        1. camelCase
+        ```javascript
+        let currentUser = "admin";
+        ```
+        2. snake_case
+        ```javascript
+        let user_name = "admin";
+        ````
+        3. PascalCase
+        ```javascript
+        let UserName = "admin";
+        ```
+        4. Hungarian - The variable name starts with the datatype notation
+        ```javascript
+         let strUserName  = "admin";        
+        ```
        
      
       
