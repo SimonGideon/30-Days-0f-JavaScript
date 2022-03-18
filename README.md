@@ -153,10 +153,10 @@ This is a series of leaning and practicing JavaScript for 30 Days
           refined = sentence1.replace(/love/g, "like");
           console.log(refined); /*This will replace all the "love" in sentence one with "like"*/
    ```
-   ###### Properties of replace()
+ _  ###### Properties of replace()
    1. It replaces the first match unless specified with the global.
    2. It is case sensitive unless specified.
-   3. Returns a new string
+   3. Returns a new string_
    
    * 
 
