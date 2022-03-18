@@ -114,7 +114,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
    ##### f. String Methods and Properties
    * slice( ): 
    
-            It takes two arguments; strt and end.
+        It takes two arguments; strt and end.
             ```javascript
             let wildAnimals = "Zebra", "Giraffe", "Lion";
                 carnivore = wildAnimals.slice(16, 0);
