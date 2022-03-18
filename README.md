@@ -68,11 +68,11 @@ This is a series of leaning and practicing JavaScript for 30 Days
       ```javascript
       let firstName = "John";
       ```
-      Strings can also be enclosed in single quotation marks.
+    Strings can also be enclosed in single quotation marks.
       ```javascript
       let firstName = 'John';
       ```
-      And also on backtick.
+    And also on backtick.
       ```javascript
       let firstName = `John`;
       ```
