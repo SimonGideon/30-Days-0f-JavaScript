@@ -104,7 +104,13 @@ This is a series of leaning and practicing JavaScript for 30 Days
    myRatings = "I love the movie. /nI give a rating of 8 out of 10";
    console.log(myRatings);
    ```
-   
+   ##### e. String concantenating.
+   Strings can be concatinated using "+" operator.
+   ```javascript
+    let greetings = "Good";
+        time = "Morning";
+    console.log(greetings +" " +time);
+   ````
    #### 4. Boolean(Logical Type).
    This checks for true or false.   
    #### 5. Null value.
