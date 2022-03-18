@@ -53,3 +53,13 @@ This is a series of leaning and practicing JavaScript for 30 Days
       
       
    ## Data Types
+   There are 8 (eight) known datatypes in javascript:
+   1. Numbers
+      This represent both interger and floating points.
+      Apart from regular number are other ones callled special numbers:
+      * **Infinity**. These are endeless values. Just like mathematical infinity, javascript contain these as a special numerical values. (∞ and -∞).
+        > A number divided by zero returns an infinity vlaue.
+      * **NaN**. When performing a mathematical computation with a number a non-numeric type retuns a NaN error.
+        > However with this strange characteristics, the special numeric value still remain to the numeric data type.
+      * 
+   3. 
