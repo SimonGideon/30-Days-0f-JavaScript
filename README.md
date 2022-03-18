@@ -62,7 +62,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
       * **NaN**. When performing a mathematical computation with a number a non-numeric type retuns a NaN error.
         > However with this strange characteristics, the special numeric value still remain to the numeric data type.
    2. BigInt
-      Holds very big and small numbers that cannot be held by type 'number'. They include (cryptography)[https://en.wikipedia.org/wiki/Cryptography] or microseconds-precisions timestamps.
+      Holds very big and small numbers that cannot be held by type 'number'. They include [cryptography](https://en.wikipedia.org/wiki/Cryptography) or microseconds-precisions timestamps.
    4. String
       strings are named inside a quotation marks. 
       ```javascript
