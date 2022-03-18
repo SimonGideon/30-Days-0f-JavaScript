@@ -65,17 +65,17 @@ This is a series of leaning and practicing JavaScript for 30 Days
    Holds very big and small numbers that cannot be held by type 'number'. They include [cryptography](https://en.wikipedia.org/wiki/Cryptography) or microseconds-precisions timestamps.
    #### 4. String
    strings are named inside a quotation marks. 
-      ```javascript
+    ```javascript
       let firstName = "John";
-      ```
+    ```
     Strings can also be enclosed in single quotation marks.
-      ```javascript
+    ```javascript
       let firstName = 'John';
-      ```
+    ```
     And also on backtick.
-      ```javascript
+    ```javascript
       let firstName = `John`;
-      ```
+    ```
    #### 6. 
    #### 7. 
    #### 8. 
