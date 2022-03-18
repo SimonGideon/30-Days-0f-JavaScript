@@ -76,6 +76,11 @@ This is a series of leaning and practicing JavaScript for 30 Days
    ```javascript
       let firstName = `John`;
    ```
-   #### 6. 
-   #### 7. 
+   #### 6. Boolean(Logical Type).
+   This checks for true or false.   
+   #### 7. Null value.
+   The unknow value.
+   ```javascript
+   const age = null; /*age is not known*/
+   ```
    #### 8. 
