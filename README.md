@@ -112,13 +112,19 @@ This is a series of leaning and practicing JavaScript for 30 Days
     console.log(greetings +" "+time);
    ````
    ##### f. String Methods and Properties
-   * slice( ): 
+   * String slice( ): 
    
-        It takes two arguments; start and end.
+        It takes two arguments; start and end. It takes both negative and positive values.
         ```javascript
             let wildAnimals = "Zebra", "Giraffe", "Lion";
                 carnivore = wildAnimals.slice(16, 0);
                 console.log(carnivore); /*This returns the Value Lion because is in the range of the index provided*/
+        ```
+   * Subrtring()
+        This works similar with slice, the obly different is that this takes only positive values. Negative values are not accepted in this.
+        ```javascript
+            let animals = "Cow", "Goat", "Monkey", "Hen";
+                wildAnimals = animals.substring(11,5); /*This will return "Monkey" as our output*/
         ```
    * 
    #### 4. Boolean(Logical Type).
