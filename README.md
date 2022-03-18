@@ -102,7 +102,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
    To push a tring to the next line in the output we use "/n"
    ```javascript
    myRatings = "I love the movie. /nI give a rating of 8 out of 10";
-   console.log(myRatings)
+   console.log(myRatings);
    ```
    
    #### 4. Boolean(Logical Type).
