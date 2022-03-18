@@ -64,7 +64,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
    #### 2. BigInt
    Holds very big and small numbers that cannot be held by type 'number'. They include [cryptography](https://en.wikipedia.org/wiki/Cryptography) or microseconds-precisions timestamps.
    #### 3. String
-   ##### Creating a string
+   ##### a. Creating a string
    strings are named inside a quotation marks. 
    ```javascript
       let firstName = "John";
@@ -77,7 +77,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
    ```javascript
       let firstName = `John`;
    ```
-   ##### Escaping character in astring
+   ##### b. Escaping character in astring
    One cannot involve a quotaion marks inside a string. This will bring an error. To solve this one add a backslash "\" slash to skip the marks.
    ```javascript
    const yourNationality = 'I'm a Kenyan';  
@@ -88,7 +88,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
    const yourNationality = 'I\'m a Kenyan';
    console.log(yourNationality);
    ```
-   ##### Including expressions in strings.
+   ##### c. Including expressions in strings.
    We can perform an arithmetic inside a string.
    ```javascript
    const movieName = "Bad Lands";
@@ -97,6 +97,12 @@ This is a series of leaning and practicing JavaScript for 30 Days
    let statement = "I wached ${movieName}, ${yearWatched - productionYear} year late,";
    console.log(statement);
          
+   ```
+   ##### d. Multi string breakin.
+   To push a tring to the next line in the output we use "/n"
+   ```javascript
+   myRatings = "I love the movie. /nI give a rating of 8 out of 10";
+   console.log(myRatings)
    ```
    
    #### 4. Boolean(Logical Type).
