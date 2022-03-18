@@ -120,13 +120,47 @@ This is a series of leaning and practicing JavaScript for 30 Days
                 carnivore = wildAnimals.slice(16, 0);
                 console.log(carnivore); /*This returns the Value Lion because is in the range of the index provided*/
         ```
-   * Subrtring()
+   * Subrtring( )
         This works similar with slice, the obly different is that this takes only positive values. Negative values are not accepted in this.
         ```javascript
             let animals = "Cow", "Goat", "Monkey", "Hen";
                 wildAnimals = animals.substring(11,5); /*This will return "Monkey" as our output*/
         ```
+   * Replacing string content replace( )
+   This takes to arguments, the first is the string to be repaced and strings to be replaced with consecutively. 
+   ```javascript
+      let sentence1 = "I love javascript";
+          refined = sentence1.replace("love", "like");
+          console.log(refined); /*This outputs a new string*/
+   ```
+   This method property is case sensive.
+   > With the above example,  whe the word "love" is replaced with capital 'L' at the beginning the re will no change the output.
+   ```javascript
+      let sentence1 = "I love javascript";
+          refined = sentence1.replace("Love", "like");
+          console.log(refined); /*This outputs a nothing*/
+   ```
+   To replace a string without bring to consideration of case, we use "/i" flag which is insensitive.
+   ```javascript
+   let sentence1 = "I love javascript";
+          refined = sentence1.replace(/LOVE/i, "like");
+          console.log(refined); /*This outputs "I like javascript"*/
+   ```
+   > Review the above code to note the difference.
+   "/g" flag replace regulary expressions with a global match i.e all value that meets the specified strings ill be replaced.
+   ```javascript
+   let sentence1 = "I love javascript, all my friends knows that I love it";
+          refined = sentence1.replace(/love/g, "like");
+          console.log(refined); /*This will replace all the "love" in sentence one with "like"*/
+   ```
+   ###### Properties of replace()
+   1. It replaces the first match unless specified with the global.
+   2. It is case sensitive unless specified.
+   3. Returns a new string
+   
    * 
+
+
    #### 4. Boolean(Logical Type).
    This checks for true or false.   
    #### 5. Null value.
