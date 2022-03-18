@@ -206,7 +206,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
    **Symbols** - Creates a unique identifier for the objects.
   ### Comparisons
   | Operator | Explanation                |
-  |----------|----------------------------|
+  |   :---:  |  :----------:              |
   |   <      | Less than                  |
   |   >      | Greater than               |
   |   =      |  equals to                 |
