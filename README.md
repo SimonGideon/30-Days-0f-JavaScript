@@ -63,7 +63,8 @@ This is a series of leaning and practicing JavaScript for 30 Days
         > However with this strange characteristics, the special numeric value still remain to the numeric data type.
    #### 2. BigInt
    Holds very big and small numbers that cannot be held by type 'number'. They include [cryptography](https://en.wikipedia.org/wiki/Cryptography) or microseconds-precisions timestamps.
-   #### 4. String
+   #### 3. String
+   ##### Creating a string
    strings are named inside a quotation marks. 
    ```javascript
       let firstName = "John";
@@ -76,11 +77,25 @@ This is a series of leaning and practicing JavaScript for 30 Days
    ```javascript
       let firstName = `John`;
    ```
-   #### 6. Boolean(Logical Type).
+   ##### Escaping character in astring
+   One cannot involve a quotaion marks inside a string. This will bring an error. To solve this one add a backslash "\" slash to skip the marks.
+   ```javascript
+   const yourNationality = 'I'm a Kenyan';
+   console.log(yourNationality); /*This yield an error to solve this proceed to the next line.*/
+   const yourNationality = 'I\'m a Kenyan';
+   console.log(yourNationality);
+   ```
+   #####Including rxpressions in strings.
+   
+   #### 4. Boolean(Logical Type).
    This checks for true or false.   
-   #### 7. Null value.
+   #### 5. Null value.
    The unknow value.
    ```javascript
    const age = null; /*age is not known*/
    ```
-   #### 8. 
+   #### 6. The undefined value
+   This a value not assigned.
+   #### 7. Object and symbols.
+   Stores collection of data and more complex entities.
+   **Symbols** - Creates a unique identifier for the objects.
