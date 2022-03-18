@@ -81,11 +81,11 @@ This is a series of leaning and practicing JavaScript for 30 Days
    One cannot involve a quotaion marks inside a string. This will bring an error. To solve this one add a backslash "\" slash to skip the marks.
    ```javascript
    const yourNationality = 'I'm a Kenyan';
-   console.log(yourNationality); /*This yield an error to solve this proceed to the next line.*/
+   console.log(yourNationality); /*This yield an error to solve this proceed to the next line*/
    const yourNationality = 'I\'m a Kenyan';
    console.log(yourNationality);
    ```
-   #####Including rxpressions in strings.
+   ##### Including rxpressions in strings.
    
    #### 4. Boolean(Logical Type).
    This checks for true or false.   
