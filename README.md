@@ -88,7 +88,16 @@ This is a series of leaning and practicing JavaScript for 30 Days
    const yourNationality = 'I\'m a Kenyan';
    console.log(yourNationality);
    ```
-   ##### Including rxpressions in strings.
+   ##### Including expressions in strings.
+   We can perform an arithmetic inside a string.
+   ```javascript
+   const movieName = "Bad Lands";
+         productionYear = 1991;
+         yearWatched = 2022;
+   let statement = "I wached ${movieName}, ${yearWatched - productionYear} year late,";
+   console.log(statement);
+         
+   ```
    
    #### 4. Boolean(Logical Type).
    This checks for true or false.   
