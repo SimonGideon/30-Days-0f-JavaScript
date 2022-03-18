@@ -172,6 +172,8 @@ This is a series of leaning and practicing JavaScript for 30 Days
             console.log(sentenceUpper);
             console.log(sentenceLower);
      ```
+  * String comparison.
+    Strings are compared  using dictionaries. You can read more on this in [String Comparison](https://javascript.info/comparison)
   * Extracting string character.
     The following  methods can be used to extract strings:
        * charAt( ) --> Takes arument position.
@@ -212,5 +214,5 @@ This is a series of leaning and practicing JavaScript for 30 Days
   |   =      |  equals to                 |
   |  !=      | not equals to              |
   |  ==      | strict equals              |
-  |  ===     | checks equality & datatype |
+  |  ===     | checks equality & data type |
 
