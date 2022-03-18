@@ -112,7 +112,8 @@ This is a series of leaning and practicing JavaScript for 30 Days
     console.log(greetings +" "+time);
    ````
    ##### f. String Methods and Properties
-   * slice(): 
+   * slice( ): 
+   
             It takes two arguments; strt and end.
             ```javascript
             let wildAnimals = "Zebra", "Giraffe", "Lion";
