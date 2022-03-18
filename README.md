@@ -112,6 +112,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
     console.log(greetings +" "+time);
    ````
    ##### f. String Methods and Properties
+   A method is function that is built into data types.
    * String slice( ): 
    
         It takes two arguments; start and end. It takes both negative and positive values.
@@ -153,11 +154,23 @@ This is a series of leaning and practicing JavaScript for 30 Days
           refined = sentence1.replace(/love/g, "like");
           console.log(refined); /*This will replace all the "love" in sentence one with "like"*/
    ```
- _  ###### Properties of replace()
+   ###### Properties of replace()
    1. It replaces the first match unless specified with the global.
    2. It is case sensitive unless specified.
-   3. Returns a new string_
+   3. Returns a new string
    
+   * Converting String Case
+      Strings can be converted into either upperCase or lowerCase using javascript
+      This can be archieved using the following string methods:
+        * .toLowerCase( ) - Lower Case
+        * .toUpperCase( ) - Upper Case
+        ```javascript
+        let sentence1 = "The world is evolving very first in Technology";
+            sentenceUpper = sentence1.toUpperCase();
+            sentenceLower = sentence1.toLowerCase();
+            console.log(sentenceUpper);
+            console.log(sentenceLower);
+        ```
    * 
 
 
