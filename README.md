@@ -159,7 +159,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
    2. It is case sensitive unless specified.
    3. Returns a new string
    
-   * Converting String Case
+  * Converting String Case
       Strings can be converted into either upperCase or lowerCase using javascript
       This can be archieved using the following string methods:
         * .toLowerCase( ) - Lower Case
@@ -171,7 +171,15 @@ This is a series of leaning and practicing JavaScript for 30 Days
             console.log(sentenceUpper);
             console.log(sentenceLower);
         ```
-   * 
+  * Extracting string character.
+      The following  methods can be used to extract strings:
+        * charAt( ) --> Takes arument position.
+            ```javascript
+            
+            ```
+        * charCodeAt( ) -->  This method returns the unicode of the character at a specified index in a string returns a UTF-16 code (an integer between 0 and 65535).
+        * Property access[ ].
+  *  
 
 
    #### 4. Boolean(Logical Type).
