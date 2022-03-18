@@ -61,6 +61,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
         > A number divided by zero returns an infinity vlaue.
       * **NaN**. When performing a mathematical computation with a number a non-numeric type retuns a NaN error.
         > However with this strange characteristics, the special numeric value still remain to the numeric data type.
+      
    #### 2. BigInt
    Holds very big and small numbers that cannot be held by type 'number'. They include [cryptography](https://en.wikipedia.org/wiki/Cryptography) or microseconds-precisions timestamps.
    #### 3. String
@@ -191,9 +192,6 @@ This is a series of leaning and practicing JavaScript for 30 Days
             text = car[0];
             console.log(text);
        ```
-  *  
-
-
    #### 4. Boolean(Logical Type).
    This checks for true or false.   
    #### 5. Null value.
@@ -206,3 +204,10 @@ This is a series of leaning and practicing JavaScript for 30 Days
    #### 7. Object and symbols.
    Stores collection of data and more complex entities.
    **Symbols** - Creates a unique identifier for the objects.
+  ### Comparisons
+  | Operator | Explanation |
+  |          |             |
+  |          |             |
+  |          |             |
+  |          |             |
+
