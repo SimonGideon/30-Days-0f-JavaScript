@@ -205,9 +205,12 @@ This is a series of leaning and practicing JavaScript for 30 Days
    Stores collection of data and more complex entities.
    **Symbols** - Creates a unique identifier for the objects.
   ### Comparisons
-  | Operator | Explanation |
-  |          |             |
-  |          |             |
-  |          |             |
-  |          |             |
+  | Operator | Explanation                |
+  |----------|----------------------------|
+  |   <      | Less than                  |
+  |   >      | Greater than               |
+  |   =      |  equals to                 |
+  |  !=      | not equals to              |
+  |  ==      | strict equals              |
+  |  ===     | checks equality & datatype |
 
