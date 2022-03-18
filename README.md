@@ -114,12 +114,12 @@ This is a series of leaning and practicing JavaScript for 30 Days
    ##### f. String Methods and Properties
    * slice( ): 
    
-        It takes two arguments; strt and end.
-            ```javascript
+        It takes two arguments; start and end.
+        ```javascript
             let wildAnimals = "Zebra", "Giraffe", "Lion";
                 carnivore = wildAnimals.slice(16, 0);
                 console.log(carnivore); /*This returns the Value Lion because is in the range of the index provided*/
-            ```
+        ```
    * 
    #### 4. Boolean(Logical Type).
    This checks for true or false.   
