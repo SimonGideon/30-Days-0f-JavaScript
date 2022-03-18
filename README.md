@@ -163,15 +163,14 @@ This is a series of leaning and practicing JavaScript for 30 Days
    Strings can be converted into either upperCase or lowerCase using javascript
    This can be archieved using the following string methods
        * .toLowerCase( ) - Lower Case
-       * .toUpperCase( ) - Upper Case
-       
-        ```javascript
+       * .toUpperCase( ) - Upper Case.
+    ```javascript
             let sentence1 = "The world is evolving very first in Technology";
             sentenceUpper = sentence1.toUpperCase();
             sentenceLower = sentence1.toLowerCase();
             console.log(sentenceUpper);
             console.log(sentenceLower);
-         ```
+     ```
   * Extracting string character.
     The following  methods can be used to extract strings:
        * charAt( ) --> Takes arument position.
