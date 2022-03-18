@@ -80,8 +80,8 @@ This is a series of leaning and practicing JavaScript for 30 Days
    ##### Escaping character in astring
    One cannot involve a quotaion marks inside a string. This will bring an error. To solve this one add a backslash "\" slash to skip the marks.
    ```javascript
-   const yourNationality = 'I'm a Kenyan';
-   console.log(yourNationality); /*This yield an error to solve this proceed to the next line*/
+   const yourNationality = 'I'm a Kenyan';  /*This yield an error to solve this proceed to the next line*/
+   console.log(yourNationality);
    const yourNationality = 'I\'m a Kenyan';
    console.log(yourNationality);
    ```
