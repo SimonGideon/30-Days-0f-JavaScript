@@ -20,7 +20,7 @@ let largeTechCompany = "Microsoft Google";
 finale = largeTechCompany.replace("Microsost", "Tesla");
 console.log(finale);
 // changing  string case using case methods 
-let upperCase = finale.toUpperCase();
+letupperCase = finale.toUpperCase();
     lowerCase = finale.toLowerCase();
 console.log(upperCase, lowerCase);
 // concant() method - to join two differnt strings.
