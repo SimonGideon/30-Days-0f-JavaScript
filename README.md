@@ -221,7 +221,7 @@ This is a series of leaning and practicing JavaScript for 30 Days
   #### Array
   ##### Characteristics of Arrays:
    1. They hold a mix of different dat types.
-        2. They are not associative i.e they are accessed using integers as indexes.
-        3. 
-        4. 
+   2. They are not associative i.e they are accessed using integers as indexes.
+   3. They are zero indexed. Array are counted from '0, 1,2,3,...' and fron '-1' counting from backwards.
+  
 
