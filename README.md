@@ -215,4 +215,11 @@ This is a series of leaning and practicing JavaScript for 30 Days
   |  !=      | not equals to              |
   |  ==      | strict equals              |
   |  ===     | checks equality & data type |
+  
+  ## Standard built-in objects.
+  ###Indexed Collection
+  ####Array
+  #####Characteristics of Arrays:
+    1. They hold a mix of different dat types.
+    2. 
 
