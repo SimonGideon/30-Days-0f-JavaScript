@@ -22,3 +22,21 @@ function fullNames(){
 
 }
 fullNames();
+// area of a rectangle
+function area(length, width){
+    return length * width
+}
+area(30, 50);
+// converting the above standard functions into error function.
+console.log("------Error Function------")
+let erSquare=num =>{
+    let squared = num*num;
+    console.log(squared);
+}
+square(50);
+
+console.log("--------");
+// Write a function called add7 that takes one number and returns that number + 7.
+function add7(num){
+    return num+=7;
+};
