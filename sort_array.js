@@ -9,5 +9,5 @@ const products = [
     {item: 'mouse',
     price: 9000}
 ];
-products.sort();
+products.sort((a, b) => a.price - b.price);
 console.log(products);
