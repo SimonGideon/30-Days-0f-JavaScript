@@ -40,3 +40,16 @@ console.log("--------");
 function add7(num){
     return num+=7;
 };
+// Write a function called multiply that takes 2 numbers and returns their product
+
+function multiply(num1, num2){
+    return num1*num2;
+}
+function capitalize(string){
+    capsString = string.toUpperCase()[0];
+    for(i=0; i<string.length; i++){
+        lowerString = string.toLowerCase()[i];
+    }
+    return capsString + lowerString;
+}
+console.log(capitalize("today"));
