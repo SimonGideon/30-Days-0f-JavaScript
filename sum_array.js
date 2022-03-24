@@ -1,6 +1,10 @@
 function sumAll(arr) {
-    let sum = arr[0] + arr[-1];
+    sum = 0;
+    maxArray = Math.max(...arr);
+    for(i=1; i<=maxArray; i++){
+        sum+=i;
+    }
     return sum;
   }
   
-  console.log(sumAll([1, 4]));
+  console.log(sumAll([5, 4]));
