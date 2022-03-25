@@ -6,4 +6,4 @@ function chunkArrayInGroups(arr, size) {
   return slice;
   }
   
-  console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
+  console.log(chunkArrayInGroups(["a", "b", "c", "d", "e", "d"], 5));
