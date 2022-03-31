@@ -1,15 +1,13 @@
-function destroyer(arr, n) {
-  join = [];
-  destroy = [];
-  for(let i=0; i<arr.length; i++){
-    join.push(arr[i]);
-  }
-  for(let f of join){
-    if(join.has(f)){
-      destroy.push(f);
-    }
-  }
-    return destroy;
-  }
-  
-  console.log(destroyer([1, 2, 3, 1, 2, 3], 2, 3));
+function destroyer(arr) {
+  let toRemove = Object.values(arguments).slice(1);
+  for (let i =  0; i<arr.length; i++){
+    for(let j =0; j<toRemove.length; j++){
+      if(arr[i] === toRemove[j]){
+        delete arr[i];
+      }
+     }
+return arr.filter(item => item !== null);
+}
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
