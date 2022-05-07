@@ -25,3 +25,6 @@ numbers.push("Seven");
 console.log(numbers)
 
 // middle
+console.log("------------Middle-----------");
+numbers.splice(2, 1, "TWENTY")
+console.log(numbers)
