@@ -9,6 +9,7 @@ console.log(complex)
 // convert cencious to Farenheit
 let tempInFarenheit = 32;
 // calculation
+ let finale = (tempInFarenheit-32)*5/9;
 var temp = 0;
 console.log("Current temprature " + temp);
 // grade sysytem
