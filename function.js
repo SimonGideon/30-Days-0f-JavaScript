@@ -10,3 +10,9 @@ function fullNameMaker(firstName, lastName){
 
 }
 fullNameMaker('John', 'Doe')
+
+function myAdder(num1, num2) {
+    let added = num1+num2;
+    return added;
+}
+console.log(myAdder(1232, 353453))
