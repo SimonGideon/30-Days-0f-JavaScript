@@ -28,5 +28,5 @@ const todos = [{
     isDone: false,
 }]
 
-const thingsDone = todos.filter((todo)=> todo.isDone ===true)
-console.log(thingsDone);
+const thingsDone = todos.filter((todo)=> todo.isDone ===false)
+console.log(thingsDone(title));
