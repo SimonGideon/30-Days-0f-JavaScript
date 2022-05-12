@@ -23,3 +23,17 @@ users.set('sam', sam)
 console.log(users.size);
 // access the specific value in the map
 console.log(users.get('sam'));
+for (const value of users.values()) {
+    console.log(value.name)
+}
+
+for (const [key, value] of users.entries()) {
+    console.log(key + '=' + value.name)    
+    console.log(`${key} + = + ${value.name}`)
+}
+
+users.forEach((value, key)=> console.log(key + '=' + value.name))
+ var arrofArr = [['one', '1'], ['two', '2'], ['three', '3']]
+ var newMap = new Map(arrofArr)
+ 
+ console.log(newMap)
