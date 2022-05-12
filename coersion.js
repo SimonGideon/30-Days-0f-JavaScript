@@ -12,3 +12,4 @@ if (loginID) {
 } else{
     console.log('Auth failed')
 }
+// values that interpret as false
